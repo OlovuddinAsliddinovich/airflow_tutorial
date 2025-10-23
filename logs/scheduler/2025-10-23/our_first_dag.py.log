@@ -2501,3 +2501,17 @@ TypeError: DAG.__init__() got an unexpected keyword argument 'schedula_interval'
 [2025-10-23T21:11:44.634+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:11:44.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-10-23T21:11:44.668+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:11:44.668+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
 [2025-10-23T21:11:44.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.138 seconds
+[2025-10-23T21:12:15.160+0000] {processor.py:186} INFO - Started process (PID=3040) to work on /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:15.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2025-10-23T21:12:15.163+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:15.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:15.189+0000] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:15.222+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:15.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-23T21:12:15.250+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:15.250+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-23T21:12:15.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.130 seconds
+[2025-10-23T21:12:45.739+0000] {processor.py:186} INFO - Started process (PID=3049) to work on /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:45.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2025-10-23T21:12:45.742+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:45.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:45.759+0000] {processor.py:925} INFO - DAG(s) 'our_first_dag_v5' retrieved from /opt/airflow/dags/our_first_dag.py
+[2025-10-23T21:12:45.784+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:45.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-23T21:12:45.808+0000] {logging_mixin.py:190} INFO - [2025-10-23T21:12:45.807+0000] {dag.py:4180} INFO - Setting next_dagrun for our_first_dag_v5 to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-23T21:12:45.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.097 seconds
